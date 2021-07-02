@@ -1,0 +1,50 @@
+.header{
+    color: #776e65;
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+}
+#title{
+    font-size: 100px;
+}
+.scores-sec{
+    display: flex;
+    position: relative;
+    left: 45px;
+}
+.score{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    margin-right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#bbada0 ;
+}
+.scoreText{
+    color: #eee2d8;
+}
+#button{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #9f7a66;
+    color: #f9f6f2;
+    padding: 5px;
+    padding-left: 15px;
+    position: absolute;
+    right: 417px;
+    top: 80px;
+    width: 100px;
+    height: 40px;
+
+}
+.scoreData{
+    color: white;
+    font-size: 30px;
+    margin-top: -10px;
+}

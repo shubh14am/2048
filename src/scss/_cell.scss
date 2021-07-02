@@ -1,0 +1,83 @@
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color:#cdc1b4;
+    margin: 5px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 50px;
+    color: #776e65;
+    padding-top: 15px;
+    font-weight: bold;  
+}
+
+.cell-filled-2{
+    animation-name: cell-2;
+    animation-duration: 0.3s;
+    background-color:#eee4da ;
+    color: #776e65;
+}
+.cell-filled-4{
+    animation-name: cell-4;
+    animation-duration: 0.3s;
+    background-color:#ede0c8 ;
+    color: #776e65;
+}
+.cell-filled-8{
+    animation: cell-8 0.2s;
+    background-color:#f2b179 ;
+    color: #f9f6f2;
+}
+.cell-filled-16{
+    animation: cell-16 0.2s;
+    background-color:#f59563 ;
+    color: #f9f6f2;
+}
+.cell-filled-32{
+    animation: cell-32 0.2s;
+    background-color:#f67c57 ;
+    color: #f9f6f2;
+}
+.cell-filled-64{
+    animation: cell-64 0.2s;
+    background-color:#f65e3b ;
+    color: #f9f6f2;
+}
+.cell-filled-128{
+    animation: cell-128 0.2s;
+    background-color:#edcf72 ;
+    color: #f9f6f2;
+}
+.cell-filled-256{
+    animation: cell-256 0.2s;
+    background-color:#edcc61 ;
+    color: #f9f6f2;
+}
+.cell-filled-512{
+    animation: cell-512 0.2s;
+    background-color:#edc850 ;
+    color: #f9f6f2;
+}
+.cell-filled-1024{
+    animation: cell-1024 0.2s;
+    background-color:#edc53f ;
+    color: #f9f6f2;
+}
+.cell-filled-2048{
+    animation: cell-2048 0.2s;
+    background-color:#edc22e ;
+    color: #f9f6f2;
+}.cell-filled-max{
+    animation: cell-max 0.2s;
+    background-color:#f67c57 ;
+    color: #f9f6f2;
+}
+
+.cell-1-4{
+    transition: 0.2s;
+    transform: translateX(330px);
+}
+.cell-4-1{
+    transition: 0.2s;
+    transform: translateX(0px);
+}
